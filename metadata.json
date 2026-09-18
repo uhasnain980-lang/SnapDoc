@@ -1,0 +1,6 @@
+{
+  "name": "SnapDoc AI",
+  "description": "Camera to PDF & Text document scanner with OCR, multi-page scanning, image enhancements, filters, signature, and secure locker.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">اسنیپ ڈاک اے آئی</string>
+    <string name="tagline">اسکین • متن نکالیں • پی ڈی ایف بنائیں</string>
+    
+    <!-- Home Actions -->
+    <string name="scan_document">دستاویز اسکین کریں</string>
+    <string name="scan_from_gallery">گیلری سے منتخب کریں</string>
+    <string name="create_pdf">پی ڈی ایف بنائیں</string>
+    <string name="extract_text">متن نکالیں</string>
+    <string name="pdf_to_images">پی ڈی ایف سے تصاویر</string>
+    <string name="recent_documents">حالیہ دستاویزات</string>
+    <string name="my_folders">میرے فولڈرز</string>
+    <string name="search_documents">دستاویزات، متن یا فولڈرز تلاش کریں…</string>
+    <string name="view_all">سب دیکھیں</string>
+    <string name="no_documents_yet">ابھی کوئی دستاویز نہیں ہے</string>
+    <string name="no_documents_desc">دستاویز اسکین کرنے کے لیے کیمرہ یا گیلری کا بٹن دبائیں</string>
+
+    <!-- Scanner Features -->
+    <string name="camera_permission_required">کیمرہ اجازت درکار ہے</string>
+    <string name="camera_permission_desc">اسنیپ ڈاک اے آئی کو دستاویزات، رسیدیں اور شناختی کارڈ اسکین کرنے کے لیے کیمرے کی ضرورت ہے۔</string>
+    <string name="grant_permission">اجازت دیں</string>
+    <string name="auto_capture">خودکار کیپچر</string>
+    <string name="flash_auto">فلیش خودکار</string>
+    <string name="flash_on">فلیش آن</string>
+    <string name="flash_off">فلیش بند</string>
+    <string name="retake">دوبارہ لیں</string>
+    <string name="rotate">گھمائیں</string>
+    <string name="crop">تراشیں</string>
+    <string name="auto_detect">کنارے تلاش کریں</string>
+    <string name="reset_crop">ری سیٹ</string>
+    <string name="next">اگلا</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="cancel">منسوخ کریں</string>
+
+    <!-- Document Types -->
+    <string name="doc_type_a4">A4 دستاویز</string>
+    <string name="doc_type_receipt">رسید</string>
+    <string name="doc_type_note">نوٹس</string>
+    <string name="doc_type_form">فارم</string>
+    <string name="doc_type_id">شناختی کارڈ</string>
+    <string name="doc_type_certificate">سند</string>
+    <string name="doc_type_book">کتاب</string>
+
+    <!-- Image Enhancement Filters -->
+    <string name="filter_original">اصل</string>
+    <string name="filter_auto">خودکار</string>
+    <string name="filter_bw">سیاہ و سفید</string>
+    <string name="filter_grayscale">گرے اسکیل</string>
+    <string name="filter_color">رنگین</string>
+    <string name="filter_sharpen">واضح</string>
+    <string name="brightness">چمک</string>
+    <string name="contrast">کونٹراسٹ</string>
+    <string name="apply_all_pages">تمام صفحات پر لاگو کریں</string>
+
+    <!-- Multi-page -->
+    <string name="pages_scanned">اسکین شدہ صفحات</string>
+    <string name="add_page">صفحہ شامل کریں</string>
+    <string name="reorder_pages">ترتیب بدلیں</string>
+    <string name="delete_page">حذف کریں</string>
+    <string name="add_signature">دستخط شامل کریں</string>
+    <string name="page_number">صفحہ %1$d</string>
+
+    <!-- OCR -->
+    <string name="ocr_title">حاصل شدہ متن</string>
+    <string name="copy">کاپی</string>
+    <string name="select_all">سب منتخب کریں</string>
+    <string name="share">شیئر کریں</string>
+    <string name="save_as_txt">TXT فائل محفوظ کریں</string>
+    <string name="save_with_doc">دستاویز کے ساتھ محفوظ کریں</string>
+    <string name="copied_to_clipboard">کلپ بورڈ پر کاپی ہو گیا</string>
+    <string name="ocr_error">او سی آر فیچر اس ڈیوائس پر دستیاب نہیں ہے یا گوگل پلے سروسز کی ضرورت ہے۔</string>
+    <string name="ocr_processing">دستاویز سے متن نکالا جا رہا ہے…</string>
+    <string name="no_text_found">کوئی پڑھنے کے قابل متن نہیں ملا</string>
+
+    <!-- PDF Options -->
+    <string name="pdf_options">پی ڈی ایف ترتیبات</string>
+    <string name="page_size">صفحہ کا سائز</string>
+    <string name="size_a4">A4 معیاری</string>
+    <string name="size_original">اصل تناسب</string>
+    <string name="orientation">سمت</string>
+    <string name="portrait">عمودی</string>
+    <string name="landscape">افقی</string>
+    <string name="image_quality">معیار</string>
+    <string name="quality_high">اعلیٰ معیار</string>
+    <string name="quality_medium">درمیانہ</string>
+    <string name="quality_economy">چھوٹا سائز</string>
+    <string name="pdf_filename">پی ڈی ایف فائل کا نام</string>
+    <string name="enter_filename">نام درج کریں</string>
+
+    <!-- Library & Folders -->
+    <string name="library">لائبریری</string>
+    <string name="all_docs">سب</string>
+    <string name="folder_documents">دستاویزات</string>
+    <string name="folder_receipts">رسیدیں</string>
+    <string name="folder_school">تعلیم</string>
+    <string name="folder_work">کام</string>
+    <string name="folder_personal">ذاتی</string>
+    <string name="folder_ids">شناختی کارڈز</string>
+    <string name="new_folder">نیا فولڈر</string>
+    <string name="create_folder">فولڈر بنائیں</string>
+    <string name="folder_name">فولڈر کا نام</string>
+    <string name="move_to_folder">فولڈر میں منتقل کریں</string>
+    <string name="rename">نام تبدیل کریں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="open">کھولیں</string>
+    <string name="lock_document">پرائیویٹ لاکر میں محفوظ کریں</string>
+    <string name="unlock_document">لاکر سے باہر نکالیں</string>
+
+    <!-- Locker -->
+    <string name="private_locker">پرائیویٹ لاکر</string>
+    <string name="enter_pin">4 ہندسوں کا پن کوڈ درج کریں</string>
+    <string name="set_pin">4 ہندسوں کا پن کوڈ بنائیں</string>
+    <string name="confirm_pin">پن کوڈ کی تصدیق کریں</string>
+    <string name="pin_incorrect">غلط پن کوڈ، دوبارہ کوشش کریں۔</string>
+    <string name="pin_mismatch">پن کوڈ مماثل نہیں ہے</string>
+    <string name="locker_desc">محفوظ مقامی پن پروٹیکشن۔</string>
+    <string name="locked_items_count">%1$d محفوظ دستاویزات</string>
+
+    <!-- Signature -->
+    <string name="signature_pad">دستخط کریں</string>
+    <string name="clear">صاف کریں</string>
+    <string name="done">مکمل</string>
+    <string name="place_signature">دستخط کو مطلوبہ جگہ پر رکھیں اور سائز سیٹ کریں</string>
+    <string name="color_black">سیاہ</string>
+    <string name="color_blue">نیلا</string>
+    <string name="color_red">سرخ</string>
+
+    <!-- Settings & Privacy -->
+    <string name="settings">ترتیبات</string>
+    <string name="language">زبان / Language</string>
+    <string name="english">English (انگریزی)</string>
+    <string name="urdu">اردو</string>
+    <string name="dark_mode">ڈارک موڈ</string>
+    <string name="theme_light">روشن (Light)</string>
+    <string name="theme_dark">تاریک (Dark)</string>
+    <string name="theme_system">سسٹم ڈیفالٹ</string>
+    <string name="privacy_policy">رازداری اور سیکیورٹی</string>
+    <string name="privacy_title">آپ کی تمام فائلیں آپ کی ڈیوائس پر محفوظ رہتی ہیں</string>
+    <string name="privacy_point1">• مکمل آف لائن کام: اسکیننگ، فلٹرز اور پی ڈی ایف سب مقامی طور پر کام کرتے ہیں۔</string>
+    <string name="privacy_point2">• کوئی کلاؤڈ اپ لوڈ نہیں: آپ کی دستاویزات کبھی بغیر اجازت انٹرنیٹ پر نہیں بھیجی جاتیں۔</string>
+    <string name="privacy_point3">• کم سے کم اجازتیں: کیمرہ صرف دستاویز اسکین کرنے کے لیے استعمال ہوتا ہے۔</string>
+    <string name="privacy_point4">• پرائیویٹ لاکر: اہم فائلیں پن کوڈ کے ساتھ محفوظ رکھیں۔</string>
+    <string name="admob_ready">گوگل ایڈموب تیار ہے</string>
+    <string name="admob_desc">معیاری بینر ایڈ کنفیگریشن۔</string>
+</resources>

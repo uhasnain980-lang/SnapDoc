@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">SnapDoc AI</string>
+    <string name="tagline">Scan • Extract Text • Create PDF</string>
+    
+    <!-- Home Actions -->
+    <string name="scan_document">Scan Document</string>
+    <string name="scan_from_gallery">Scan from Gallery</string>
+    <string name="create_pdf">Create PDF</string>
+    <string name="extract_text">Extract Text</string>
+    <string name="pdf_to_images">PDF to Images</string>
+    <string name="recent_documents">Recent Documents</string>
+    <string name="my_folders">My Folders</string>
+    <string name="search_documents">Search documents, text or folders…</string>
+    <string name="view_all">View All</string>
+    <string name="no_documents_yet">No scanned documents yet</string>
+    <string name="no_documents_desc">Tap Scan Document or import from gallery to start scanning</string>
+
+    <!-- Scanner Features -->
+    <string name="camera_permission_required">Camera Permission Required</string>
+    <string name="camera_permission_desc">SnapDoc AI needs camera access to scan documents, notes, receipts and IDs directly on your device.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="auto_capture">Auto Capture</string>
+    <string name="flash_auto">Flash Auto</string>
+    <string name="flash_on">Flash On</string>
+    <string name="flash_off">Flash Off</string>
+    <string name="retake">Retake</string>
+    <string name="rotate">Rotate</string>
+    <string name="crop">Crop</string>
+    <string name="auto_detect">Auto Detect</string>
+    <string name="reset_crop">Reset</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Document Types -->
+    <string name="doc_type_a4">A4 Document</string>
+    <string name="doc_type_receipt">Receipt</string>
+    <string name="doc_type_note">Notes</string>
+    <string name="doc_type_form">Form</string>
+    <string name="doc_type_id">ID Card</string>
+    <string name="doc_type_certificate">Certificate</string>
+    <string name="doc_type_book">Book</string>
+
+    <!-- Image Enhancement Filters -->
+    <string name="filter_original">Original</string>
+    <string name="filter_auto">Auto</string>
+    <string name="filter_bw">Black &amp; White</string>
+    <string name="filter_grayscale">Grayscale</string>
+    <string name="filter_color">Color</string>
+    <string name="filter_sharpen">Sharpen</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="apply_all_pages">Apply to all pages</string>
+
+    <!-- Multi-page -->
+    <string name="pages_scanned">Pages Scanned</string>
+    <string name="add_page">Add Page</string>
+    <string name="reorder_pages">Reorder</string>
+    <string name="delete_page">Delete</string>
+    <string name="add_signature">Add Signature</string>
+    <string name="page_number">Page %1$d</string>
+
+    <!-- OCR -->
+    <string name="ocr_title">Extracted Text</string>
+    <string name="copy">Copy</string>
+    <string name="select_all">Select All</string>
+    <string name="share">Share</string>
+    <string name="save_as_txt">Save as TXT</string>
+    <string name="save_with_doc">Save with Document</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="ocr_error">On-device OCR is unavailable or failed to process text. Please ensure Google Play Services is up to date.</string>
+    <string name="ocr_processing">Extracting text using on-device OCR…</string>
+    <string name="no_text_found">No readable text found in this document</string>
+
+    <!-- PDF Options -->
+    <string name="pdf_options">PDF Settings</string>
+    <string name="page_size">Page Size</string>
+    <string name="size_a4">A4 Standard</string>
+    <string name="size_original">Original Proportion</string>
+    <string name="orientation">Orientation</string>
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+    <string name="image_quality">Quality</string>
+    <string name="quality_high">High (Best Print)</string>
+    <string name="quality_medium">Medium (Balanced)</string>
+    <string name="quality_economy">Economy (Small File)</string>
+    <string name="pdf_filename">PDF Filename</string>
+    <string name="enter_filename">Enter document name</string>
+
+    <!-- Library & Folders -->
+    <string name="library">Library</string>
+    <string name="all_docs">All</string>
+    <string name="folder_documents">Documents</string>
+    <string name="folder_receipts">Receipts</string>
+    <string name="folder_school">School</string>
+    <string name="folder_work">Work</string>
+    <string name="folder_personal">Personal</string>
+    <string name="folder_ids">IDs</string>
+    <string name="new_folder">New Folder</string>
+    <string name="create_folder">Create Folder</string>
+    <string name="folder_name">Folder Name</string>
+    <string name="move_to_folder">Move to Folder</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="lock_document">Move to Private Locker</string>
+    <string name="unlock_document">Remove from Private Locker</string>
+
+    <!-- Locker -->
+    <string name="private_locker">Private Locker</string>
+    <string name="enter_pin">Enter 4-Digit PIN</string>
+    <string name="set_pin">Set 4-Digit PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="pin_incorrect">Incorrect PIN. Please try again.</string>
+    <string name="pin_mismatch">PINs do not match. Try again.</string>
+    <string name="locker_desc">Documents protected by local encrypted PIN storage.</string>
+    <string name="locked_items_count">%1$d Protected Document(s)</string>
+
+    <!-- Signature -->
+    <string name="signature_pad">Draw Signature</string>
+    <string name="clear">Clear</string>
+    <string name="done">Done</string>
+    <string name="place_signature">Drag &amp; scale signature into place</string>
+    <string name="color_black">Black</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_red">Red</string>
+
+    <!-- Settings & Privacy -->
+    <string name="settings">Settings</string>
+    <string name="language">Language / زبان</string>
+    <string name="english">English</string>
+    <string name="urdu">اردو (Urdu)</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+    <string name="privacy_policy">Privacy &amp; Security</string>
+    <string name="privacy_title">Your Documents Stay On Your Device</string>
+    <string name="privacy_point1">• 100% Offline-First: All scanning, image enhancement, and PDF generation are performed locally.</string>
+    <string name="privacy_point2">• No Automatic Cloud Uploads: Your files are never uploaded to any remote server or cloud account without explicit user action.</string>
+    <string name="privacy_point3">• Minimum Permissions: Camera permission is used solely for live document scanning. No broad storage access is requested.</string>
+    <string name="privacy_point4">• Private Locker: Sensitive files can be protected locally with a PIN code.</string>
+    <string name="admob_ready">AdMob Advertisement Ready</string>
+    <string name="admob_desc">Standard banner configured with Google test unit ID.</string>
+</resources>
