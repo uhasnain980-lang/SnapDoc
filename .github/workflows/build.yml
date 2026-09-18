@@ -7,13 +7,36 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with:
-          java-version: '17'
           distribution: 'temurin'
+          java-version: '17'
       - uses: gradle/actions/setup-gradle@v3
+
+      - name: Check project structure
+        run: ls -la
+
+      - name: Make gradlew executable
+        run: chmod +x./gradlew || chmod +x./android/gradlew || echo "no wrapper"
+
       - name: Build APK
-        run: gradle assembleDebug
+        run: |
+          if [ -f "./android/gradlew" ]; then
+            cd android &&./gradlew assembleDebug
+          elif [ -f "./gradlew" ]; then
+           ./gradlew assembleDebug
+          else
+            echo "No gradlew found, trying gradle..."
+            if [ -d "./android" ]; then
+              cd android && gradle assembleDebug
+            else
+              gradle assembleDebug
+            fi
+          fi
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: SnapDoc-APK
-          path: "**/build/outputs/apk/debug/*.apk"
+          path: |
+            **/build/outputs/apk/debug/*.apk
+            android/app/build/outputs/apk/debug/*.apk
+            app/build/outputs/apk/debug/*.apk
